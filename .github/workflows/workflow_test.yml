@@ -1,0 +1,8 @@
+name: Simple workflow
+on: [push]
+jobs:
+    Test-few-functions-of-actions:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Greetings
+              run: echo "Hello, GitHub Actions!"
